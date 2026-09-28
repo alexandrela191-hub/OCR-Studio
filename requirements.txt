@@ -6,4 +6,3 @@ opencv-python==5.0.0.93
 openpyxl==3.1.5
 selenium==4.47.0
 webdriver-manager==4.1.2
-pynspd==1.1.13
