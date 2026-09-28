@@ -40,6 +40,14 @@ python ocr_studio.py
 
 Python, Tkinter, Tesseract OCR, OpenCV, Pillow, Selenium, NumPy и OpenPyXL.
 
+![OCR Studio architecture](docs/ocr-studio-overview.svg)
+
+## Что демонстрирует проект
+
+- устойчивый фоновой OCR worker для пакетной обработки;
+- разделение распознавания, проверки и внесения результата;
+- локальное хранение рабочих данных без публикации документов.
+
 ## Структура
 
 - `ocr_studio.py` — приложение и OCR-движок;
